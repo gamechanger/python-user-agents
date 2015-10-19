@@ -2,8 +2,8 @@
 from setuptools import setup
 
 setup(
-    name='user-agents',
-    version='1.0.1',
+    name='gc-user-agents',
+    version='2.0.0',
     author='Selwin Ong',
     author_email='selwin.ong@gmail.com',
     packages=['user_agents'],
@@ -14,7 +14,7 @@ setup(
     zip_safe=False,
     include_package_data=True,
     package_data={'': ['README.md']},
-    install_requires=['ua-parser'],
+    install_requires=['gc-ua-parser'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
