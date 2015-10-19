@@ -3,17 +3,14 @@ from setuptools import setup
 
 setup(
     name='gc-user-agents',
-    version='2.0.0',
+    version='2.0.1',
     author='Selwin Ong',
     author_email='selwin.ong@gmail.com',
     packages=['user_agents'],
     url='https://github.com/selwin/python-user-agents',
     license='MIT',
     description='A library to identify devices (phones, tablets) and their capabilities by parsing (browser/HTTP) user agent strings',
-    long_description=open('README.md').read(),
     zip_safe=False,
-    include_package_data=True,
-    package_data={'': ['README.md']},
     install_requires=['gc-ua-parser'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
